@@ -20,7 +20,7 @@ import org.reflections.scanners.SubTypesScanner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.yammer.dropwizard.lifecycle.Managed;
+import io.dropwizard.lifecycle.Managed;
 
 public class ManagedScheduler implements Managed {
 	private static final Logger LOG = LoggerFactory.getLogger(ManagedScheduler.class);
