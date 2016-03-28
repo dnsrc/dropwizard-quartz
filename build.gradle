@@ -4,7 +4,7 @@ repositories {
 	mavenCentral()
 }
 dependencies {
-	compile group: 'io.dropwizard', name: 'dropwizard-lifecycle', version:'0.7.1'
+	compile group: 'io.dropwizard', name: 'dropwizard-lifecycle', version:'0.9.2'
 	compile group: 'com.google.inject.extensions', name: 'guice-servlet', version:'3.0'
 	compile group: 'org.reflections', name: 'reflections', version:'0.9.9-RC1'
 	compile(group: 'org.quartz-scheduler', name: 'quartz', version:'2.2.1')
